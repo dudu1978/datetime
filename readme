@@ -2,7 +2,7 @@ Download Docker Image
 1.	Open your OS terminal
 2.	From your terminal run the following command : “docker login”
 a.	Enter your docker hub credentials 
-3.	In order to download the image run the following command “docker pull dzbeda\texel:latest” 
+3.	In order to download the image run the following command “docker pull dzbeda/texel” 
 
 Apply k8s deployment 
 1.	Copy the deploy.yaml file to your Kubernetes cluster 
