@@ -1,6 +1,5 @@
 from selenium import webdriver
 import datetime
-#browser = webdriver.Firefox(executable_path = 'C:/Users/dzbeda/github/texel/geckodriver.exe')
 import time
 import urllib.request
 import sys
@@ -8,6 +7,7 @@ import sys
 
 ## Please update your HTTP Link
 web_site = 'http://10.164.237.112:30007'
+browser = webdriver.Firefox(executable_path = 'C:/Users/texel/geckodriver.exe')
 os_datetime= datetime.datetime.now()
 os_date = os_datetime.date()
 
